@@ -50,8 +50,18 @@
         <title>JezdezCon - Most exclusive conference ever.</title>
         <meta name="description" content="Table flipping workshop. 7 talks by world-class speakers. Many roundtable discussions.">
         <meta name="keywords" content="cupcakes, table flip, curry wurst, bier, ">
+
+        <SCRIPT SRC="javascript/JSFX_Layer.js"></SCRIPT>
+        <SCRIPT SRC="javascript/JSFX_Mouse.js"></SCRIPT>
+        <SCRIPT SRC="javascript/JSFX_TextFlag.js"></SCRIPT>
+        <SCRIPT>
+        function JSFX_StartEffects()
+        {
+            JSFX.MakeTextFlag("JezdezCon", "magenta", "Arial", 4);
+        }
+        </SCRIPT>
     </head>
-    <body style="text-align: center"><!-- TODO: Fix this!! -->
+    <body style="text-align: center" ONLOAD="JSFX_StartEffects()"><!-- TODO: Fix this!! -->
         <A href="https://ti.to/jezdezcon/jezdezcon-2015">
             <IMG src="jezdezcon.png" />
         </A>
